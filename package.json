@@ -3,8 +3,8 @@
   "displayName": "Copilot Instructions Manager",
   "description": "Automatically manages copilot-instructions.md with custom coding rules and provides a manual command to update it.",
   "version": "0.0.1",
-  "publisher": "your-publisher-name",
-  "author": "Your Name",
+  "publisher": "tittysou",
+  "author": "Tittysou",
   "license": "MIT",
   "repository": {
     "type": "git",
