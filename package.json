@@ -3,6 +3,14 @@
   "displayName": "Copilot Instructions Manager",
   "description": "Automatically manages copilot-instructions.md with custom coding rules and provides a manual command to update it.",
   "version": "0.0.1",
+  "publisher": "your-publisher-name",
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tittysou/Copilot-Instructions-Extension.git"
+  },
+  "keywords": ["copilot", "instructions", "coding-rules", "automation"],
   "engines": {
     "vscode": "^1.102.0"
   },
