@@ -3,7 +3,7 @@
 import * as vscode from 'vscode';
 
 const INSTRUCTIONS_PATH = '.github/copilot-instructions.md';
-const INSTRUCTIONS_CONTENT = `<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->\n\n# Copilot Coding Rules\n\n- No comments in generated code\n- No explanatory comments within code\n- Focus on clean, self-explanatory code\n- Use consistent formatting and clear naming\n- Keep functions focused and single-purpose\n\nThis is a VS Code extension project. Please use the get_vscode_api with a query as input to fetch the latest VS Code API references.\n`;
+const INSTRUCTIONS_CONTENT = `<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->`;
 
 async function ensureInstructionsFile(showNotification = false) {
 	const wsFolders = vscode.workspace.workspaceFolders;
